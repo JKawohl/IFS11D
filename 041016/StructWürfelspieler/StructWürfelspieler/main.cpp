@@ -1,15 +1,12 @@
 // Würfelspiel_struct.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
 //
 
-
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
 #include <string>
 
-
 using namespace std;
-
 void haeufigkeit(unsigned int, unsigned int[]);
 
 int main()
@@ -17,7 +14,7 @@ int main()
 	const int MAXS = 1;
 
 	struct T_Spieler { char Name[20]; unsigned int Wuerfel[10]; unsigned int igesamt; };
-	T_Spieler Spieler[MAXS];
+	T_Spieler Spieler[8];
 	unsigned int haeufig[6] = { 0 };
 
 
@@ -26,6 +23,7 @@ int main()
 	cin >> Spieler[0].Name;
 	srand((unsigned)time(NULL));
 
+	
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -43,6 +41,7 @@ int main()
 	}
 
 	cout << endl << endl;
+
 
 	//Haeufigkeiten der Zahlen werden ausgegeben.
 	for (int i = 0; i < 6; i++)
