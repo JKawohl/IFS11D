@@ -108,3 +108,4 @@ void haeufigkeit(unsigned int wuerfelzahl, unsigned int haeufig[]) {
 		break;
 	}
 }
+  
