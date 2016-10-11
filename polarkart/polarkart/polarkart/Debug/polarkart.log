@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\john\source\repos\ifs11d\polarkart\polarkart\polarkart\main.cpp(56): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\john\source\repos\ifs11d\polarkart\polarkart\polarkart\main.cpp(63): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+c:\users\john\source\repos\ifs11d\polarkart\polarkart\polarkart\main.cpp(64): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  polarkart.vcxproj -> C:\Users\john\Source\Repos\IFS11D\polarkart\polarkart\Debug\polarkart.exe
+  polarkart.vcxproj -> C:\Users\john\Source\Repos\IFS11D\polarkart\polarkart\Debug\polarkart.pdb (Full PDB)

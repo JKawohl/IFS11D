@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D4F9E924-051C-4EE6-BD30-78D608E19506}</ProjectGuid>
+    <ProjectGuid>{DE5CF4DD-55A2-44BB-8C5E-99E1EABB924B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>StructWürfelspieler</RootNamespace>
+    <RootNamespace>polarkart</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
