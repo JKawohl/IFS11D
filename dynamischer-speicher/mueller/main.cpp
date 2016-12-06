@@ -16,6 +16,7 @@ int main(){
 	pInt=new int[iAnzahl];
 	double mittelwert=eingabeMittelwert(pInt, iAnzahl);
 	cout << "Mittelwert: " << mittelwert << endl;
+	delete[] pInt;
 }
 
 
