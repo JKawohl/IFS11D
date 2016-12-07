@@ -1,5 +1,15 @@
 #include <iostream>
-#include "../custom.h"
+
+void printSame(int anzahl, char sign, int newline);
+
+void printSame(int anzahl, char sign, int newline){
+	for(int i=0; i<anzahl; i++){
+		std::cout << sign;
+	}
+	for(int i=0; i<newline; i++){
+		std::cout << std::endl;
+	}
+}
 
 void eingabeWerte(int *, int);
 double getAvg(int *, int);
