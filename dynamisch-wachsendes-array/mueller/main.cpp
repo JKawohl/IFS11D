@@ -42,12 +42,10 @@ int main() {
 		pZeigerAlt = pZeigerNeu;
 
 	} while (temp != 0);
-	if(iAnzahl != 1) {
-		double mittelwert = getAvg(pZeigerNeu, iAnzahl - 1);
-		cout << "Mittelwert: " << mittelwert << endl;
-		cout << "Minimum: " << getMin(pZeigerNeu, iAnzahl - 1) << endl;
-		cout << "Maximum: " << getMax(pZeigerNeu, iAnzahl - 1) << endl;
-	}
+	double mittelwert = getAvg(pZeigerNeu, iAnzahl);
+	cout << "Mittelwert: " << mittelwert << endl;
+	cout << "Minimum: " << getMin(pZeigerNeu, iAnzahl - 1) << endl;
+	cout << "Maximum: " << getMax(pZeigerNeu, iAnzahl) << endl;
 }
 
 void eingabeWerte(int * pInt, int iMax) {
