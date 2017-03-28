@@ -10,10 +10,10 @@ hallo ifs 11 d
     <tr>
         <?php
         $Endwert = 120;
-
+        $primzahl = true;
 //Bauerncode
 
-        for ($Zahl=1; $Zahl <=120; $Zahl++)
+/*        for ($Zahl=1; $Zahl <=120; $Zahl++)
         {
             if ($Zahl % 2 == 0) {
 
@@ -30,7 +30,7 @@ hallo ifs 11 d
                 echo "</tr> <tr>";
         }
 
-
+*/
 //elegant
 
 
@@ -50,6 +50,8 @@ hallo ifs 11 d
 
             if ($Zahl % 10 == 0 and  $Zahl < $Endwert)
             echo "</tr> <tr>";
+
+
 
         }
         ?>
