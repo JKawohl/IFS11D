@@ -1,20 +1,27 @@
 <?php
 mt_srand(time());
-
+$wieoft = array_fill ( 1, 6, 0);
 
 echo "Anzahl Würfel: ".$_POST["txtWuerfelzahl"]."<br>";
 
 for ( $k =0 ; $k < $_POST ["txtWuerfelzahl"] ; $k ++)
 {
 	$wuerfel = mt_rand(1,6);
-	
+
+
 	// Ausgabe Würfelbilder 
 	echo "<td>";
 	echo ("<img src='".$wuerfel.".gif'
 		width= '72' height='71' />");
 	echo "</td>";
+	
+	
 
-	// Umbruch nach Würfen
+
+
+	//Textumbruch 	
+
+
 }
 
 
