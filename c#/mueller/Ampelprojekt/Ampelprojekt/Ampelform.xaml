@@ -1,0 +1,15 @@
+﻿<Window x:Class="Ampelprojekt.Ampelform"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ampelprojekt"
+        mc:Ignorable="d"
+        Title="Ampelform" Height="251.205" Width="90.325" WindowStyle="ToolWindow">
+    <Grid>
+        <Ellipse x:Name="ellRot" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="64"/>
+        <Ellipse x:Name="ellGelb" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" Margin="10,79,0,0" Stroke="Black" VerticalAlignment="Top" Width="64"/>
+        <Ellipse x:Name="ellGruen" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" Margin="10,148,0,0" Stroke="Black" VerticalAlignment="Top" Width="64"/>
+
+    </Grid>
+</Window>
